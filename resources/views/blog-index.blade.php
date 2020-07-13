@@ -67,7 +67,10 @@
           @else
           @endif
 
-
+          <ul class="pagination">
+            {{ $posts->appends(request()->input())->onEachSide(1)->links() }}
+                  
+          </ul>
 
         </div><!-- /.row -->
         {{--<div class="row">

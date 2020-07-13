@@ -61,7 +61,7 @@
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
                 <a href="{{ route('services') }}" class="dropdown-toggle nav__item-link">Services</a>
-                {{-- <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
                 <ul class="dropdown-menu wide-dropdown-menu">
                   <li class="nav__item">
                     <div class="row mx-0">
@@ -100,7 +100,7 @@
                       </div><!-- /.col-sm-6 -->
                     </div><!-- /.row -->
                   </li><!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu --> --}}
+                </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               
               <li class="nav__item with-dropdown">

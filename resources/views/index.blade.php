@@ -13,6 +13,14 @@
   <link rel="stylesheet" href="assets/css/libraries.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <script src="https://kit.fontawesome.com/dfbe4c7cae.js" crossorigin="anonymous"></script>
+  <style >
+    body, div, p, span, a{
+      font-size: 20px;
+    }
+    .project__img img{
+      height: 250px;
+    }
+  </style>
 </head>
 @endsection
 @section('main-content')
@@ -112,19 +120,19 @@
           <div class="col-sm-12 col-md-12 col-lg-12  d-none d-lg-block">
             <div class="owl-thumbs thumbs-dots" data-slider-id="slider1">
               <button class="owl-thumb-item">
-                <i class="icon-elevator"></i>
+                <i class="fa fa-shipping-fast"></i>
                 <span>Local & International <br> Freight Forwarding </span>
               </button>
               <button class="owl-thumb-item">
-                <i class="icon-airplane"></i>
+                <i class="fa fa-dolly"></i>
                 <span>Local & International <br> Procurement</span>
               </button>
               <button class="owl-thumb-item">
-                <i class="icon-ship"></i>
+                <i class="fab fa-searchengin"></i>
                 <span>Equipment & Machinery <br> Sourcing </span>
               </button>
               <button class="owl-thumb-item">
-                <i class="fas fa-satellite"></i>
+                <i class="fas fa-satellite-dish"></i>
                 <span>Information Technology  Services</span>
               </button>
             </div><!-- /.owl-thumbs -->
@@ -268,15 +276,7 @@
 
     <section id="fancyboxLayout2" class="fancybox-layout2 pb-60">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-10 col-xl-4">
-            <div class="heading heading-3 mb-50">
-              <span class="heading__subtitle">Your Package, Your Rules</span>
-              <h2 class="heading__title">We continue to pursue that same vision in today's complex, uncertain world,
-                working every day</h2>
-            </div>
-          </div><!-- /.col-xl-4 -->
-        </div><!-- /.row -->
+        
         <div class="row">
           <!-- fancybox item #1 -->
           <div class="col-sm-12 col-md-6 col-lg-3">
@@ -693,7 +693,7 @@
     <!-- =========================
       Carousel Tabs 
       =========================== -->
-    <section id="carouselTabs" class="carousel-tabs pb-70">
+    <section id="carouselTabs" class="carousel-tabs pb-30">
       <div class="pricing-bg">
         <div class="bg-img bg-overlay"><img src="assets/images/backgrounds/1.jpg" alt="background"></div>
       </div>
@@ -701,9 +701,8 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-50">
-              <span class="heading__subtitle color-white">Latest Case Studies</span>
+              {{-- <span class="heading__subtitle color-white">Latest Case Studies</span> --}}
               <h2 class="heading__title color-white">Featured Projects</h2>
-              <div class="divider__line divider__white divider__center"></div>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -733,9 +732,9 @@
                       <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                       
                     </div><!-- /.project-img -->
-                    <div class="project__content">
+                    <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner:</b> {{$project->owner}} <br>
+                      <p ><b style="font-weight: bolder;">Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
                         <b>Details:</b> {{strip_tags($project->details)}} <br>
                         <b>Scope:</b> 
@@ -784,7 +783,7 @@
                       <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                       
                     </div><!-- /.project-img -->
-                    <div class="project__content">
+                    <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                       <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
@@ -835,7 +834,7 @@
                       <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                       
                     </div><!-- /.project-img -->
-                    <div class="project__content">
+                    <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                       <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
@@ -882,7 +881,7 @@
                         <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                         
                       </div><!-- /.project-img -->
-                      <div class="project__content">
+                      <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                         <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
@@ -932,7 +931,7 @@
                         <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                         
                       </div><!-- /.project-img -->
-                      <div class="project__content">
+                      <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                         <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
@@ -980,7 +979,7 @@
                         <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                         
                       </div><!-- /.project-img -->
-                      <div class="project__content">
+                      <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                         <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
@@ -1027,19 +1026,20 @@
       Blog Grid
     ========================= -->
 
-    <section id="blogGrid" class="blog blog-grid pb-60">
+    <section id="blogGrid" class="blog blog-grid pb-60" >
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+        <div class="row" >
+          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3" >
             <div class="heading text-center mb-50">
-              <span class="heading__subtitle">Insight and Trends</span>
+              {{-- <span class="heading__subtitle">Insight and Trends</span> --}}
               <h2 class="heading__title">Recent Articles</h2>
-              <div class="divider__line divider__theme divider__center mb-0"></div>
+              {{-- <div class="divider__line divider__theme divider__center mb-0"></div> --}}
               <p class="heading__desc">Follow our latest news and thoughts which focuses exclusively on insight,
                 industry trends, top news headlines.</p>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
+
         <div class="row">
 
           @if($posts->count() > 0)
