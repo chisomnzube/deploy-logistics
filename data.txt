@@ -1,0 +1,50 @@
+/root/.ssh/id_server
+ebele2019
+
+#this is mysql password
+$ebele2019
+
+db name: logistics
+
+
+
+mysql -u root -p
+
+
+
+#the command to import database
+mysql -u root -p logistics < /var/www/html/ziksdxfh_logistics.sql
+
+
+git pull 
+
+unzip 
+
+/var/www/html
+
+$ git remote set-url origin git@github.com:ppreyer/first_app.git
+
+//to install mysql
+To begin with, I deleted MySQL with:
+
+sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+sudo rm -rf /etc/mysql /var/lib/mysql
+sudo apt-get autoremove
+sudo apt-get autoclean
+Then I downloaded the .deb from oficial page and used the following commands:
+
+curl -OL https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+sudo dpkg -i mysql-apt-config*
+sudo apt update
+sudo apt install mysql-server -y
+At this point I had trouble because of Ubuntu eoan "incompability" (I'm using Ubuntu 19.10), displaying a message like: "The detected system (Debian jessie) is not supported by MySQL. If you believe the platform is compatible with one of the supported systems, one of the corresponding repositories may be selected". But I researched in MySQL bugs page and ran:
+
+dpkg -i mysql-apt-config_0.8.13-1_all.deb 
+sudo apt update
+sudo apt install mysql-server -y
+When it finishes, you may check the installation with:
+
+sudo systemctl status mysql.service
+And you should see something like...
+
+root@178.62.90.171 and password is ebele2019

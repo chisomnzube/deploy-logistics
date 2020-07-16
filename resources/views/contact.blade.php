@@ -19,7 +19,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('images/consultancy1.jpg') }}" alt="Contact Us - {{config('app.name')}}"></div>
+      <div class="bg-img"><img src="{{ asset('images/consultancy1.jpeg') }}" alt="Contact Us - {{config('app.name')}}"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -93,23 +93,14 @@
       </div><!-- /.container -->
     </section><!-- /.contact 1 -->
 
-{{--     <!-- ========================= 
-            Google Map
-    =========================  -->
-    <section id="googleMap" class="google-map p-0">
-      <div id="map"></div>
-      <script src="assets/js/google-map.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" async defer></script>
-      <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
-    </section><!-- /.GoogleMap --> --}}
 
-    <!-- ==========================
-       Contact panels
-    ============================ -->
-    <section id="contactPanels" class="contact-panels text-center pb-70">
+
+   <!-- ========================= 
+            cta 1
+    =========================  -->
+    <section id="cta1" class="cta cta-1 border-top pt-40 pb-10">
       <div class="container">
         <div class="row">
-          <!-- Contact panel #1 -->
           <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="contact-panel contact-panel-2">
               <div class="contact__panel-header d-flex align-items-center">
@@ -181,11 +172,24 @@
               </div>
             </div><!-- /.contact-panel -->
           </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-3 text-right">
+            <h2 class="cta__title">Sign up for industry news and insights from Logisti.</h2>
+          </div><!-- /.col-lg-3 -->
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <form action="{{ route('store.subscription') }}" method="POST">
+              @csrf
+              <div class="form-group d-flex">
+                <input type="email" name="email" class="form-control mr-30" placeholder="Your Email Address">
+                <button class="btn btn__primary btn__hover3">Sign Up!</button>
+              </div>
+            </form>
+          </div><!-- /.col-lg-5 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
-    </section><!-- /. Contact panels -->
+    </section><!-- /.cta1 -->
 
 @endsection
+
 @section('script')   
 
   <script src="assets/js/jquery-3.3.1.min.js"></script>

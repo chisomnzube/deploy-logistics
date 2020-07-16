@@ -137,7 +137,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo/logo-dark.png" alt="logo" class="mb-30">
+                <img src="{{ asset('images/pzi.png') }}" alt="logo" class="mb-30">
               </div>
             </div><!-- /.col-lg-4 -->
 

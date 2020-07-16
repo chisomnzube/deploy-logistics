@@ -184,7 +184,7 @@
                 We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
                 </p>
                 
-                <img src="{{ asset('images/signature.jpg') }}" alt="singnture" class="signature mb-30">
+                <img src="{{ asset('images/signature.JPG') }}" alt="singnture" class="signature mb-30">
               </div><!-- /.col-lg-7 -->
             </div><!-- /.row -->
           </div><!-- /.col-lg-7 -->

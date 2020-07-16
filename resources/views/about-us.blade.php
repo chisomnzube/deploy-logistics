@@ -62,7 +62,7 @@
                 We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers.
                 We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
                 </p>
-                <img src="{{ asset('images/signature.jpg') }}" alt="signature" class="signature mb-30">
+                <img src="{{ asset('images/signature.JPG') }}" alt="signature" class="signature mb-30">
               </div><!-- /.col-lg-7 -->
               <div class="col-sm-12 col-md-5 col-lg-5">
                 <div class="carousel owl-carousel carousel-dots" data-slide="1" data-slide-md="1" data-slide-sm="1"
