@@ -120,19 +120,19 @@
           <div class="col-sm-12 col-md-12 col-lg-12  d-none d-lg-block">
             <div class="owl-thumbs thumbs-dots" data-slider-id="slider1">
               <button class="owl-thumb-item">
-                <i class="fa fa-shipping-fast"></i>
+                {{-- <i class="fa fa-shipping-fast"></i> --}}
                 <span>Local & International <br> Freight Forwarding </span>
               </button>
               <button class="owl-thumb-item">
-                <i class="fa fa-dolly"></i>
+                {{-- <i class="fa fa-dolly"></i> --}}
                 <span>Local & International <br> Procurement</span>
               </button>
               <button class="owl-thumb-item">
-                <i class="fab fa-searchengin"></i>
+                {{-- <i class="fab fa-searchengin"></i> --}}
                 <span>Equipment & Machinery <br> Sourcing </span>
               </button>
               <button class="owl-thumb-item">
-                <i class="fas fa-satellite-dish"></i>
+                {{-- <i class="fas fa-satellite-dish"></i> --}}
                 <span>Information Technology  Services</span>
               </button>
             </div><!-- /.owl-thumbs -->
@@ -224,10 +224,10 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="service-item">
               <div class="service__img">
-                <img src="{{ asset('images/cargo.jpg') }}" alt="Project Cargo" class="img-fluid">
+                <img src="{{ asset('images/cargo.jpg') }}" alt="Project Cargo" class="img-fluid" style="height: 300px;">
               </div><!-- /.service-img -->
               <div class="service__overlay">
-                <div class="service__icon"><i class="icon-airplane"></i></div>
+                {{-- <div class="service__icon"><i class="icon-airplane"></i></div> --}}
                 <h4 class="service__title">Project Cargo</h4>
                 <p class="service__desc">We have more than twenty years of experience. We’ve become expert in freight
                   transportation by air and all its related.</p>
@@ -238,10 +238,10 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="service-item">
               <div class="service__img">
-                <img src="{{ asset('images/oem.jpeg') }}" alt="OEM/Agency" class="img-fluid">
+                <img src="{{ asset('images/oem.jpeg') }}" alt="OEM/Agency" class="img-fluid" style="height: 300px;">
               </div><!-- /.service-img -->
               <div class="service__overlay">
-                <div class="service__icon"><i class="icon-ship"></i></div>
+                {{-- <div class="service__icon"><i class="icon-ship"></i></div> --}}
                 <h4 class="service__title">OEM/Agency</h4>
                 <p class="service__desc">Local support for international products that are already in service at sites around Nigeria helps foreign firms to reduce their cost in Nigeria.</p>
                 <a href="{{ route('oem.agency') }}" class="btn btn__white btn__link btn__underlined">Read More</a>
@@ -251,10 +251,10 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="service-item">
               <div class="service__img">
-                <img src="{{ asset('images/consultancy.jpeg') }}" alt="Consultancy" class="img-fluid">
+                <img src="{{ asset('images/consultancy.jpeg') }}" alt="Consultancy" class="img-fluid" style="height: 300px;">
               </div><!-- /.service-img -->
               <div class="service__overlay">
-                <div class="service__icon"><i class="icon-truck"></i></div>
+                {{-- <div class="service__icon"><i class="icon-truck"></i></div> --}}
                 <h4 class="service__title">Consultancy</h4>
                 <p class="service__desc">We are fully on ground to conduct extensive research and liaise with local and international Industry experts to provide vital information to streamline and augment decision making. </p>
                 <a href="{{ route('consultancy') }}" class="btn btn__white btn__link btn__underlined">Read More</a>
@@ -264,7 +264,7 @@
         </div><!-- /.row -->
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <a href="#request_quote" class="btn btn__primary btn__hover3 btn__lg mt-20">Schedule An Appointment</a>
+            <a href="{{ route('contact.us') }}" class="btn btn__primary btn__hover3 btn__lg mt-20">Get in touch Today</a>
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -1049,7 +1049,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="{{ route('blogs.show', $post->slug) }}">
-                  <img src="{!! postImage($post->image) !!}" alt="{!! $post->title !!}">
+                  <img src="{!! postImage($post->image) !!}" alt="{!! $post->title !!}" style="height: 250px;">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -1057,7 +1057,7 @@
                   <span class="blog__meta-date">{!! $post->created_at->format('M d, Y') !!}</span>
                 </div><!-- /.blog-meta -->
                 <h4 class="blog__title"><a href="{{ route('blogs.show', $post->slug) }}">{!! $post->title !!}</a></h4>
-                <p class="blog__desc">{{ strip_tags(str_limit($post->body, 150)) }}
+                <p class="blog__desc" style="font-size: 16px;">{{ strip_tags(str_limit($post->body, 150)) }}
                 </p>
                 <a href="{{ route('blogs.show', $post->slug) }}" class="btn btn__secondary btn__link">Read More</a>
               </div><!-- /.entry-content -->
@@ -1072,98 +1072,7 @@
       </div><!-- /.container -->
     </section><!-- /.blog Grid -->
 
-    <!-- ========================= 
-            cta 1
-    =========================  -->
-    <section id="cta1" class="cta cta-1 border-top pt-40 pb-10">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="contact-panel contact-panel-2">
-              <div class="contact__panel-header d-flex align-items-center">
-                <i class="icon-placeholder"></i>
-                <h4 class="contact__panel-title">Global Locations</h4>
-              </div>
-              <div id="accordion">
-                <div class="accordion-item">
-                  <div class="accordion__item-header opened" data-toggle="collapse" data-target="#collapse1">
-                    <a class="accordion__item-title" href="#">Lagos Office</a>
-                  </div><!-- /.accordion-item-header -->
-                  <div id="collapse1" class="collapse  show" data-parent="#accordion">
-                    <div class="accordion__item-body">
-                      <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+2348173040154">+2348173040154</a></li>
-                        <li>Email: Logisti@7oroof.com</li>
-                        <li>Address: Lagos <br>
-                            suite 6,<br>
-                            41 Osolo Way<br> 
-                            Ajao Estate-lagos<br>
-                            Nigeria.
-                          </li>
-                        {{-- <li>Hours: Mon-Fri: 8am – 7pm</li> --}}
-                      </ul>
-                    </div><!-- /.accordion-item-body -->
-                  </div>
-                </div><!-- /.accordion-item -->
-                
-                <div class="accordion-item">
-                  <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
-                    <a class="accordion__item-title" href="#">Port-Harcourt Office</a>
-                  </div><!-- /.accordion-item-header -->
-                  <div id="collapse2" class="collapse" data-parent="#accordion">
-                    <div class="accordion__item-body">
-                      <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+2348173040154">+2348173040154</a></li>
-                        <li>Email: Logisti@7oroof.com</li>
-                        <li>Address: Port-Harcourt Office <br>
-                            No 64 Evo Road<br>
-                            GRA Phase II,<br>
-                            Port-Harcourt, Rivers State<br>
-                            Nigeria.
-                        </li>
-                        {{-- <li>Hours: Mon-Fri: 8am – 7pm</li> --}}
-                      </ul>
-                    </div><!-- /.accordion-item-body -->
-                  </div>
-                </div><!-- /.accordion-item -->
-                <div class="accordion-item">
-                  <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
-                    <a class="accordion__item-title" href="#">London Office</a>
-                  </div><!-- /.accordion-item-header -->
-                  <div id="collapse3" class="collapse" data-parent="#accordion">
-                    <div class="accordion__item-body">
-                      <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+447515370301">UK Contact: +447515370301</a></li>
-                        <li><a href="tel:++00918323716873">USA Contact: +009 18323716873</a></li>
-                        <li>Email: Logisti@7oroof.com</li>
-                        <li>Address: London Office <br>
-                            524 York Road, Stevenage,<br>
-                            Hertfordshire, SG1 4EP<br>
-                            United Kingdom.
-                          </li>
-                        {{-- <li>Hours: Mon-Fri: 8am – 7pm</li> --}}
-                      </ul>
-                    </div><!-- /.accordion-item-body -->
-                  </div>
-                </div><!-- /.accordion-item -->
-              </div>
-            </div><!-- /.contact-panel -->
-          </div><!-- /.col-lg-4 -->
-          <div class="col-sm-12 col-md-12 col-lg-3 text-right">
-            <h2 class="cta__title">Sign up for industry news and insights from Logisti.</h2>
-          </div><!-- /.col-lg-3 -->
-          <div class="col-sm-12 col-md-12 col-lg-5">
-            <form action="{{ route('store.subscription') }}" method="POST">
-              @csrf
-              <div class="form-group d-flex">
-                <input type="email" name="email" class="form-control mr-30" placeholder="Your Email Address">
-                <button class="btn btn__primary btn__hover3">Sign Up!</button>
-              </div>
-            </form>
-          </div><!-- /.col-lg-5 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.cta1 -->
+
 @endsection
 
 @section('script')    

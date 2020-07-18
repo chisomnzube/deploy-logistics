@@ -50,7 +50,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="{{ route('blogs.show', $post->slug) }}">
-                  <img src="{!! postImage($post->image) !!}" alt="{!! $post->title !!}">
+                  <img src="{!! postImage($post->image) !!}" alt="{!! $post->title !!}" style="height: 250px;">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -68,8 +68,7 @@
           @endif
 
           <ul class="pagination">
-            {{ $posts->appends(request()->input())->onEachSide(1)->links() }}
-                  
+            {{ $posts->appends(request()->input())->onEachSide(1)->links() }}                  
           </ul>
 
         </div><!-- /.row -->

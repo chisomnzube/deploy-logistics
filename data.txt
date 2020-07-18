@@ -48,3 +48,5 @@ sudo systemctl status mysql.service
 And you should see something like...
 
 root@178.62.90.171 and password is ebele2019
+git config --global user.email "chisomnzube@gmail.com"
+git config --global user.name "Chisom Nzube"
