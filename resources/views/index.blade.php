@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Logisti ">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <meta name="keywords" content="Logistics company in Nigeria, Logistics company in USA, Logistics company in UK, Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria.">
+  <meta name="description" content="PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners in different countries."> 
+  <meta property="og:image" content="{{ asset('img/favi.png') }}">
   <title>{{config('app.name')}}</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
@@ -212,12 +213,10 @@
             <span class="heading__subtitle">Services We Offer</span>
           </div><!-- /.col-lg-12 -->
           <div class="col-sm-12 col-md-6 col-lg-5">
-            <h2 class="heading__title">We Manage Lead Logistics For World’s Multinational Companies.</h2>
+            <h2 class="heading__title">Dynamic  co-ordination of resourcees and Expertise to meet customer expectations.</h2>
           </div><!-- /.col-lg-5 -->
           <div class="col-sm-12 col-md-6 col-lg-6 offset-lg-1">
-            <p class="heading__desc">Our global logistics expertise, advanced supply chain technology & customized
-              logistics solutions will help you analyze, develop and implement successful supply chain management
-              strategies.</p>
+            <p class="heading__desc">Our global logistics partnership , advanced supply chain technology & Service processes will help you  develop and execute required service as expected.</p>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
         <div class="row">

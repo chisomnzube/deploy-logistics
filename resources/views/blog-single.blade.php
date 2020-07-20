@@ -5,7 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Logisti ">
+  <meta name="keywords" content="{!! strip_tags(str_limit($post->meta_keywords, 60)) !!}">
+  <meta name="description" content="{!! strip_tags(str_limit($post->body, 150)) !!}">
+  <meta property="og:image" content="{!! postImage($post->image) !!}">
   <title>{!! $post->title !!} - PZI </title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
   <link rel="stylesheet" href="{{ asset('assets/css/libraries.css') }}" />

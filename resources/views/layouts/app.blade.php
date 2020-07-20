@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="assets/images/favicon/favicon.png" rel="icon">
+<link href="{{ asset('img/favi.png') }}" rel="icon">
 @yield('head')
 
 
@@ -23,7 +23,7 @@
             <ul class="list-unstyled d-flex justify-content-end align-items-center">
               <li><i class="icon-phone"></i><span><a href="tel:+2348173040154">+2348173040154</a></span></li>
              
-              <li><a href="#request_quote" class="btn btn__white"><i class="icon-list"></i><span>Request A
+              <li ><a href="#request_quote" class="btn btn__white" style="font-size: 16px;"><i class="icon-list"></i><span>Request A
                     Quote</span></a></li>
             </ul>
           </div><!-- /.header-top-right -->

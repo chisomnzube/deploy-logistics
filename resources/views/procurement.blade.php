@@ -5,9 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Logisti ">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
-  <title>Local & International Procurement  - {{config('app.name')}}</title>
+  <meta name="keywords" content="Logistics company in Nigeria, Logistics company in USA, Logistics company in UK, Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria.">
+  <meta name="description" content="PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.">
+  <meta property="og:image" content="{{ asset('img/favi.png') }}">
+  <title>Procurement and Supply Chain - {{config('app.name')}}</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
@@ -20,17 +21,17 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="Local & International Procurement  - {{config('app.name')}}"></div>
+      <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="Procurement and Supply Chain  - {{config('app.name')}}"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('landingpage') }}">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Local & International Procurement</li>
+                <li class="breadcrumb-item active" aria-current="page">Procurement and Supply Chain</li>
               </ol>
             </nav>
-            <h1 class="pagetitle__heading">Local & International Procurement</h1>
+            <h1 class="pagetitle__heading">Procurement and Supply Chain</h1>
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -84,7 +85,7 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="text__block mb-40">
-                    <h1 class="text__block-title">Local & International Procurement</h1>
+                    <h1 class="text__block-title">Procurement and Supply Chain</h1>
                     <p class="text__block-desc">We source and procure items both locally and globally based on our wide coverage of the local market.  
                     </p>
                     <div class="row">

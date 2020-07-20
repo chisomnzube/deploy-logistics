@@ -5,7 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Logisti ">
+  <meta name="keywords" content="Logistics company in Nigeria, Logistics company in USA, Logistics company in UK, Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria.">
+  <meta name="description" content="{!! str_limit(strip_tags($project->details), 150) !!}">
+  <meta property="og:image" content="{!! postImage($project->image) !!}">
   <title>{!! $project->name !!} -Project | PZI </title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
   <link rel="stylesheet" href="{{ asset('assets/css/libraries.css') }}" />

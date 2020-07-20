@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Logisti ">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <meta name="keywords" content="Logistics company in Nigeria, Logistics company in USA, Logistics company in UK, Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria.">
+  <meta name="description" content="PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.">
+  <meta property="og:image" content="{{ asset('img/favi.png') }}">
   <title>About Us - {{config('app.name')}} </title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
@@ -56,7 +57,7 @@
                   Time!</h2>
               </div><!-- /.col-lg-12 -->
               <div class="col-sm-12 col-md-7 col-lg-7">
-                <p class="heading__desc mb-30">PZI  is a Company registered in Lagos Nigeria with Branch in USA and  UK. We provide Procurement services, customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners  in different countries. </p>
+                <p class="heading__desc mb-30">PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners in different countries. </p>
 
                 <p>We pride ourselves on providing Freight forwarding,  transport and shipping services locally and Globally ( through our affiliates and partners) . 
                 We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers.
@@ -74,7 +75,7 @@
                     </div><!-- /.fancybox-icon -->
                     <div class="fancybox__content">
                       <h4 class="fancybox__title">Our Mission</h4>
-                      <p class="fancybox__desc">Utilizing the international best practice to ensure optimum client satisfaction and service delivery at all points.</p>
+                      <p class="fancybox__desc">Utilizing our resources to provide service and deliverables in line with International best practice and standards for optimum client satisfaction and delivery at all Points.</p>
                     </div><!-- /.fancybox-content -->
                   </div><!-- /.fancybox-item -->
                   <div class="fancybox-item">
