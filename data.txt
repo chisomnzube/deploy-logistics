@@ -47,6 +47,26 @@ When it finishes, you may check the installation with:
 sudo systemctl status mysql.service
 And you should see something like...
 
-root@178.62.90.171 and password is ebele2019
+root@178.62.90.171 and password is passtheLion
 git config --global user.email "chisomnzube@gmail.com"
 git config --global user.name "Chisom Nzube"
+
+// the original is 
+sudo chown -R www-data:root /var/www/html
+
+chown -R www-data:root
+
+sudo chmod -R 775 /var/www/html/storage/app/public/posts
+
+
+sudo usermod -aG www-data deploybot\
+
+sudo chown -R www-data:root /var/www/html
+
+sudo chown -R www-data:www-data /var/www/html/public/uploads
+
+sudo chmod -R 775 /var/www/html/storage/app/public/posts
+
+It works for me Make sure change your user accordingly in this case it is deploybot
+
+https://stackoverflow.com/questions/36733306/unable-to-write-in-the-directory-digital-ocean

@@ -733,25 +733,25 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p ><b style="font-weight: bolder;">Owner:</b> {{$project->owner}} <br>
-                        <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags($project->details)}} <br>
-                        <b>Scope:</b> 
+                      <p ><b style="font-weight: bolder;">Owner: {{$project->owner}}</b> <br>
+                        <b>Client: {{$project->client}}</b> <br>
+                        <b>Details: {{strip_tags($project->details)}}</b> <br>
+                        <b>Scope:
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach <br>
-                        <b>Detailed Scope:</b>    
+                            @endforeach </b> <br>
+                        <b>Detailed Scope:    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
                                 ?>
                                 @foreach($array as $items)
                                   {{$items.','}}
-                                @endforeach
+                                @endforeach </b>
                        </p>
                       
                     </div><!-- /.project-content -->
@@ -784,25 +784,26 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner:</b> {{$project->owner}} <br>
-                        <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags($project->details)}} <br>
-                        <b>Scope:</b> 
+                      <p><b>Owner: {{$project->owner}} </b><br>
+                        <b>Client: {{$project->client}} </b><br>
+                        <b>Details: {{strip_tags($project->details)}} </b><br>
+                        <b>Scope: 
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach <br>
-                        <b>Detailed Scope:</b>    
+                            @endforeach </b><br>
+                        <b>Detailed Scope:    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
                                 ?>
                                 @foreach($array as $items)
                                   {{$items.','}}
-                                @endforeach
+                                @endforeach 
+                                </b>
                        </p>
                     </div><!-- /.project-content -->
                   </div><!-- /.project-item -->
@@ -835,18 +836,18 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner:</b> {{$project->owner}} <br>
-                        <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags($project->details)}} <br>
-                        <b>Scope:</b> 
+                      <p><b>Owner: {{$project->owner}} </b><br>
+                        <b>Client: {{$project->client}} </b><br>
+                        <b>Details: {{strip_tags($project->details)}} </b><br>
+                        <b>Scope:
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach <br>
-                        <b>Detailed Scope:</b>    
+                            @endforeach </b> <br>
+                        <b>Detailed Scope:    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -854,6 +855,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
+                                </b>
                        </p>
                     </div><!-- /.project-content -->
                   </div><!-- /.project-item -->
@@ -882,18 +884,18 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner:</b> {{$project->owner}} <br>
-                        <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags($project->details)}} <br>
-                        <b>Scope:</b> 
+                        <p><b>Owner: {{$project->owner}} </b><br>
+                        <b>Client: {{$project->client}} </b><br>
+                        <b>Details: {{strip_tags($project->details)}} </b><br>
+                        <b>Scope: 
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach <br>
-                        <b>Detailed Scope:</b>    
+                            @endforeach </b><br>
+                        <b>Detailed Scope:    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -901,6 +903,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
+                                </b>
                        </p>
                       </div><!-- /.project-content -->
                     </div><!-- /.project-item -->
@@ -932,18 +935,18 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner:</b> {{$project->owner}} <br>
-                        <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags($project->details)}} <br>
-                        <b>Scope:</b> 
+                        <p><b>Owner: {{$project->owner}} </b><br>
+                        <b>Client: {{$project->client}} </b><br>
+                        <b>Details: {{strip_tags($project->details)}} </b><br>
+                        <b>Scope: 
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach <br>
-                        <b>Detailed Scope:</b>    
+                            @endforeach </b><br>
+                        <b>Detailed Scope:    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -951,6 +954,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
+                                </b>
                        </p>
                       </div><!-- /.project-content -->
                     </div><!-- /.project-item -->
@@ -980,18 +984,18 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner:</b> {{$project->owner}} <br>
-                        <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags($project->details)}} <br>
-                        <b>Scope:</b> 
+                        <p><b>Owner: {{$project->owner}} </b><br>
+                        <b>Client: {{$project->client}} </b><br>
+                        <b>Details: {{strip_tags($project->details)}} </b><br>
+                        <b>Scope: 
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach <br>
-                        <b>Detailed Scope:</b>    
+                            @endforeach </b><br>
+                        <b>Detailed Scope:    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -999,6 +1003,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
+                                </b>
                        </p>
                       </div><!-- /.project-content -->
                     </div><!-- /.project-item -->
