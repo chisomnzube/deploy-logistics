@@ -21,7 +21,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('images/cargo2.jpg') }}" alt="Project Cargo"></div>
+      <div class="bg-img"><img src="{{ asset('img/project_cargo.jpg') }}" alt="Project Cargo"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -50,7 +50,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="text__block mb-40">
                     <h1 class="text__block-title">Project Cargo</h1>
-                    <p class="text__block-desc">PZI is a provider also transport and Logistics solutions to the Oil, Gas and other Industrial   cargoes/machineries and products that are out of Gauge (OOG). Through our extensive network of logistics partners and capable service providers at major locations around the globe, we provide our clients with a large variety of services ranging from small courier shipments to project transports of complete oil rigs from one continent to another. 
+                    <p class="text__block-desc">PZI is also a transport and Logistics solutions to the Oil, Gas and other Industrial   cargoes/machineries and products that are out of Gauge (OOG). Through our extensive network of logistics partners and capable service providers at major locations around the globe, we provide our clients with a large variety of services ranging from small courier shipments to project transports of complete oil rigs from one continent to another. 
                     </p>
                     <p class="text__block-desc">Projects varies by Industry and shipping requirements and are typically large-scale and highly complex resulting in detailed and strategically well planned operational procedure to ensure the schedule, Risk management and safety requirements are factored into the execution of the logistics and shipping. 
                     As a result of multi parties involved in the various stages from manufacturing to delivery, we have capacity to management the process as a single point of contact to handle the logistics flow.

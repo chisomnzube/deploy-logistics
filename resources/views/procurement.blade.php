@@ -21,7 +21,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="Procurement and Supply Chain  - {{config('app.name')}}"></div>
+      <div class="bg-img"><img src="{{ asset('img/procurement.jpg') }}" alt="Procurement and Supply Chain  - {{config('app.name')}}"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">

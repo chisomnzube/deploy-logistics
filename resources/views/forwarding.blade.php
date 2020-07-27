@@ -21,7 +21,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="Local & International Freight Forwarding  - {{config('app.name')}}"></div>
+      <div class="bg-img"><img src="{{ asset('img/forwarding.jpg') }}" alt="Local & International Freight Forwarding  - {{config('app.name')}}"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -29,7 +29,7 @@
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('landingpage') }}">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Services</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Air Freight</li>
+                <li class="breadcrumb-item active" aria-current="page">Local & International Freight Forwarding</li>
               </ol>
             </nav>
             <h1 class="pagetitle__heading">Local & International Freight Forwarding </h1>

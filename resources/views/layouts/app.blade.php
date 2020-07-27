@@ -72,7 +72,7 @@
                           </li> <!-- /.nav-item -->
                           <li class="nav__item"><a class="nav__item-link" href="{{ route('procurement') }}">Procurement & Supply Chain Management </a>
                           </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="">Project Cargo shipping and Delivery </a>
+                          <li class="nav__item"><a class="nav__item-link" href="{{ route('project.cargo') }}">Project Cargo shipping and Delivery </a>
                           </li> <!-- /.nav-item -->
                           <li class="nav__item"><a class="nav__item-link" href="">OEM Representation & International</br> Sales Representation</a>
                           </li> <!-- /.nav-item -->
@@ -240,7 +240,7 @@
                   <ul class="list-unstyled">
                     <li ><a  href="{{ route('forwarding') }}">Local & International Freight Forwarding and Shipping </a> </li>
                     <li ><a  href="{{ route('procurement') }}">Procurement & Supply Chain Management </a>    </li>
-                    <li ><a  href="">Project Cargo shipping and Delivery </a>        </li>
+                    <li ><a  href="{{ route('project.cargo') }}">Project Cargo shipping and Delivery </a>        </li>
                     <li ><a  href="">OEM Representation & International Sales Representation</a>          </li>
                     <li ><a  href="{{ route('sourcing') }}">Equipment & Machinery Sourcing </a>        </li>
                     <li ><a  href="{{ route('technology') }}">Information technology & Consultancy </a></li>

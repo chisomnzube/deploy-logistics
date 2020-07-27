@@ -35,7 +35,7 @@ Route::post('/store-comment/{postId}/{commentId}', 'LandingpageController@commen
 //routes for services
 Route::get('/services', 'ServicesController@index')->name('services');
 Route::get('/Local_&_International_Freight_Forwarding', 'ServicesController@forwarding')->name('forwarding');
-Route::get('/Local_&_International_Procurement', 'ServicesController@procurements')->name('procurement');
+Route::get('/Procurement_and_supply_chain_management', 'ServicesController@procurements')->name('procurement');
 Route::get('/Equipment_&_Machinery_Sourcing', 'ServicesController@sourcing')->name('sourcing');
 Route::get('/Information_Technology_Services', 'ServicesController@technology')->name('technology');
 

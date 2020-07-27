@@ -213,7 +213,7 @@
             <span class="heading__subtitle">Services We Offer</span>
           </div><!-- /.col-lg-12 -->
           <div class="col-sm-12 col-md-6 col-lg-5">
-            <h2 class="heading__title">Dynamic  co-ordination of resourcees and Expertise to meet customer expectations.</h2>
+            <h2 class="heading__title">Dynamic  co-ordination of resources and Expertise to meet customer expectations.</h2>
           </div><!-- /.col-lg-5 -->
           <div class="col-sm-12 col-md-6 col-lg-6 offset-lg-1">
             <p class="heading__desc">Our global logistics partnership , advanced supply chain technology & Service processes will help you  develop and execute required service as expected.</p>
@@ -708,12 +708,12 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <nav class="nav nav-tabs nav-tabs-white">
-              <a class="nav__link active" data-toggle="tab" href="#tab1">ALL Works</a>
-              <a class="nav__link" data-toggle="tab" href="#tab2">Freight Forwarding</a>
-              <a class="nav__link" data-toggle="tab" href="#tab3">Consultancy</a>
-              <a class="nav__link" data-toggle="tab" href="#tab4">Logistics</a>
-              <a class="nav__link" data-toggle="tab" href="#tab5">Procurement</a>
-              <a class="nav__link" data-toggle="tab" href="#tab6">InformationTechnology</a>
+              <a class="nav__link active" data-toggle="tab" href="#tab1" style="font-size: 20px;"><b>ALL Works</b></a>
+              <a class="nav__link" data-toggle="tab" href="#tab2" style="font-size: 20px;"><b>Freight Forwarding</b></a>
+              <a class="nav__link" data-toggle="tab" href="#tab3" style="font-size: 20px;"><b>Consultancy</b></a>
+              <a class="nav__link" data-toggle="tab" href="#tab4" style="font-size: 20px;"><b>Logistics</b></a>
+              <a class="nav__link" data-toggle="tab" href="#tab5" style="font-size: 20px;"><b>Procurement</b></a>
+              <a class="nav__link" data-toggle="tab" href="#tab6" style="font-size: 20px;"><b>Information Technology</b></a>
             </nav>
             <div class="tab-content">
 
