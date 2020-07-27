@@ -14,6 +14,26 @@
   <link rel="stylesheet" href="assets/css/libraries.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <script src="https://kit.fontawesome.com/dfbe4c7cae.js" crossorigin="anonymous"></script>
+  <style >
+    .div {
+  /*width: 200px;
+  height: 200px;*/
+  display: block;
+  position: relative;
+}
+
+.div::after {
+  content: "";
+  background: url({{asset('img/back-freight.jpg')}});
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+  </style>
 </head>
 @endsection
 @section('main-content')
@@ -81,7 +101,7 @@
               </div><!-- /.widget-help -->
             </aside><!-- /.sidebar -->
           </div><!-- /.col-lg-4 --> --}}
-          <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="col-sm-12 col-md-12 col-lg-12 div" >
             <div class="case-single-item">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
