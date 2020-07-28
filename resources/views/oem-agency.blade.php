@@ -8,12 +8,32 @@
   <meta name="keywords" content="Logistics company in Nigeria, Logistics company in USA, Logistics company in UK, Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria.">
   <meta name="description" content="PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.">
   <meta property="og:image" content="{{ asset('img/favi.png') }}">
-  <title>OEM/Agency  - {{config('app.name')}}</title>
+  <title>OEM/Equipment and Sales Representation  - {{config('app.name')}}</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <script src="https://kit.fontawesome.com/dfbe4c7cae.js" crossorigin="anonymous"></script>
+    <style >
+    .div {
+  /*width: 200px;
+  height: 200px;*/
+  display: block;
+  position: relative;
+}
+
+.div::after {
+  content: "";
+  background: url({{asset('img/back-oem.jpg')}});
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+  </style>
 </head>
 @endsection
 @section('main-content')
@@ -21,17 +41,17 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="OEM/Agency  - {{config('app.name')}}"></div>
+      <div class="bg-img"><img src="{{ asset('img/oem.jpg') }}" alt="OEM/Equipment and Sales Representation  - {{config('app.name')}}"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('landingpage') }}">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">OEM/Agency</li>
+                <li class="breadcrumb-item active" aria-current="page">OEM/Equipment and Sales Representation</li>
               </ol>
             </nav>
-            <h1 class="pagetitle__heading">OEM/Agency </h1>
+            <h1 class="pagetitle__heading">OEM/Equipment and Sales Representation </h1>
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -40,7 +60,7 @@
     <!-- ======================
       case studies Single
     ========================= -->
-    <section id="caseStudiesSingle" class="case-studies-single">
+    <section id="caseStudiesSingle" class="case-studies-single div">
       <div class="container">
         <div class="row">
          {{--  <div class="col-sm-12 col-md-12 col-lg-4">
@@ -85,7 +105,7 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="text__block mb-40">
-                    <h1 class="text__block-title">OEM/Agency </h1>
+                    <h1 class="text__block-title">OEM/Equipment and Sales Representation </h1>
                     <p class="text__block-desc">At PZI , we leverage knowledge of the market and Industry of interest to tailor our marketing approach and the requirements and Services dynamism to present a product that meets the demand of the client or Industry, and to ensure adequation and optimum service delivery. We have broad experience in the Nigerian market and can expand through partnership with other technical partners to deliver required services. We will create a viable product development and market approach and monitor it from start to fruition until maturity of the product or brand. Our representation helps eliminate the huge cost involved in international trips and huge cost of marketing, It also give assurance that your products and service are well represented. <br>
 
                     Based on our firm understanding of the global supplier and representation for various equipment demand in the Oil & Gas Industry . We have built a relationships with various OEM, Dealers and Buying Houses and have access to wide range of products and services. We can always source for items needed based on requirements and arrange delivery. <br>

@@ -74,10 +74,8 @@
                           </li> <!-- /.nav-item -->
                           <li class="nav__item"><a class="nav__item-link" href="{{ route('project.cargo') }}">Project Cargo shipping and Delivery </a>
                           </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="{{ route('oem.agency') }}">OEM Representation & International</br> Sales Representation</a>
-                          </li> <!-- /.nav-item -->
-                          <li class="nav__item"><a class="nav__item-link" href="{{ route('sourcing') }}">Equipment & Machinery Sourcing </a>
-                          </li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="{{ route('oem.equipment') }}">OEM/Equipment and Sales Representation</a>
+                          </li> <!-- /.nav-item -->                          
                           <li class="nav__item"><a class="nav__item-link" href="{{ route('technology') }}">Information technology & Consultancy </a></li>
                           <li class="nav__item"><a class="nav__item-link" href="">Product Sales & Marketing  Development</a></li>
                           <!-- /.nav-item -->
@@ -241,8 +239,7 @@
                     <li ><a  href="{{ route('forwarding') }}">Local & International Freight Forwarding and Shipping </a> </li>
                     <li ><a  href="{{ route('procurement') }}">Procurement & Supply Chain Management </a>    </li>
                     <li ><a  href="{{ route('project.cargo') }}">Project Cargo shipping and Delivery </a>        </li>
-                    <li ><a  href="{{ route('oem.agency') }}">OEM Representation & International Sales Representation</a>          </li>
-                    <li ><a  href="{{ route('sourcing') }}">Equipment & Machinery Sourcing </a>        </li>
+                    <li ><a  href="{{ route('oem.equipment') }}">OEM/Equipment and Sales Representation</li>
                     <li ><a  href="{{ route('technology') }}">Information technology & Consultancy </a></li>
                     <li ><a  href="">Product Sales & Marketing  Development</a></li>
                   </ul>
@@ -299,7 +296,7 @@
                   </ul>
                 </nav>
                 <span>&copy; {{date('Y')}} {{config('app.name')}} by</span>
-                <a href="https://www.webfluxy.xom">Webfluxy</a>
+                <a href="https://www.webfluxy.com">Webfluxy</a>
               </div><!-- /.Footer-copyright -->
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center">

@@ -35,16 +35,7 @@ class ServicesController extends Controller
     {
         return view('procurement');
     }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function sourcing()
-    {
-        return view('sourcing');
-    }  
+ 
     
     /**
      * Display a listing of the resource.
