@@ -86,9 +86,24 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="text__block mb-40">
                     <h1 class="text__block-title">Equipment & Machinery Sourcing </h1>
-                    <p class="text__block-desc">Based on our firm understanding of the global supplier and representation for various equipment demand in the Oil & Gas Industry .  We have built a relationships with various  OEM, Dealers and Buying Houses and have access to wide range of products and services.  We can always source for items needed based on requirements and arrange delivery.
+                    <p class="text__block-desc">At PZI , we leverage knowledge of the market and Industry of interest to tailor our marketing approach and the requirements and Services dynamism to present a product that meets the demand of the client or Industry, and to ensure adequation and optimum service delivery. We have broad experience in the Nigerian market and can expand through partnership with other technical partners to deliver required services. We will create a viable product development and market approach and monitor it from start to fruition until maturity of the product or brand. Our representation helps eliminate the huge cost involved in international trips and huge cost of marketing, It also give assurance that your products and service are well represented. <br>
+
+                    Based on our firm understanding of the global supplier and representation for various equipment demand in the Oil & Gas Industry . We have built a relationships with various OEM, Dealers and Buying Houses and have access to wide range of products and services. We can always source for items needed based on requirements and arrange delivery. <br>
+
+                    Support and Ancillary Services <br>
+                    We can help OEM with reliable technical partners to help with the following aspects:
+                    <ul class="list-group" >
+                       <li ><i class="fas fa-angle-double-right"></i>Bids and tender presentation</li>
+                       <li ><i class="fas fa-angle-double-right"></i>Market research and product development </li>
+                      <li ><i class="fas fa-angle-double-right"></i>Arrangement of Pairing with Local and foreign technical partners </li>
+                      <li ><i class="fas fa-angle-double-right"></i>Arrangement of partners for servitization contracts. </li>
+                      <li ><i class="fas fa-angle-double-right"></i>Market research in Nigeria in relevant industry and areas of interest. </li>
+                      <li ><i class="fas fa-angle-double-right"></i>Arrange travel logistics and presentation materials for technical presentations. </li>
+                      <li ><i class="fas fa-angle-double-right"></i>Assist with invoice submission, payment follow-up, processing, and payment. </li>
+                      <li ><i class="fas fa-angle-double-right"></i>Assist in supply chain services and delivery of equipment and shipments  to client’s</li>
+                    </ul>
                     </p>
-                    <h4 class="text__block-title">Oil & Gas Industry and Other Equipment Sourcing </h4>
+                    {{-- <h4 class="text__block-title">Oil & Gas Industry and Other Equipment Sourcing </h4>
                     <div class="row">
                       <div class="col-md-12 col-lg-12 col-sm-12">
 
@@ -208,7 +223,7 @@
                     
                   </div>
                     
-                </div>
+                </div> --}}
 
                   </div><!-- /.text-block -->
                   
