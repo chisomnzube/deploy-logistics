@@ -83,7 +83,7 @@
                   <h2 class="slide__title">Safe & Reliable Cargo Solutions!</h2>
                   <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
                     delivery.</p>
-                  <a href="{{ route('oem.equipment') }}" class="btn btn__white mr-40">Read more</a>
+                  <a href="{{ route('oem.agency') }}" class="btn btn__white mr-40">Read more</a>
                   <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
                       <span class="video__player-animation"></span>
@@ -243,7 +243,7 @@
                 {{-- <div class="service__icon"><i class="icon-ship"></i></div> --}}
                 <h4 class="service__title">OEM/Agency</h4>
                 <p class="service__desc">Local support for international products that are already in service at sites around Nigeria helps foreign firms to reduce their cost in Nigeria.</p>
-                <a href="{{ route('oem.equipment') }}" class="btn btn__white btn__link btn__underlined">Read More</a>
+                <a href="{{ route('oem.agency') }}" class="btn btn__white btn__link btn__underlined">Read More</a>
               </div>
             </div><!-- /.service-item -->
           </div><!-- /.col-lg-4 -->

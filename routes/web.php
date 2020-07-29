@@ -17,7 +17,7 @@ Route::get('/about', 'LandingpageController@about')->name('about.us');
 Route::get('/why_choose_us', 'LandingpageController@whyUs')->name('why.us');
 
 Route::get('/Project_cargo', 'LandingpageController@cargo')->name('project.cargo');
-Route::get('/OEM-Equipment_and_sales_representation', 'LandingpageController@agency')->name('oem.equipment');
+Route::get('/OEM-Equipment_and_sales_representation', 'LandingpageController@agency')->name('oem.agency');
 Route::get('/Consultancy', 'LandingpageController@consultancy')->name('consultancy');
 
 //routes for contact us
@@ -36,6 +36,7 @@ Route::post('/store-comment/{postId}/{commentId}', 'LandingpageController@commen
 Route::get('/services', 'ServicesController@index')->name('services');
 Route::get('/Local_&_International_Freight_Forwarding', 'ServicesController@forwarding')->name('forwarding');
 Route::get('/Procurement_and_supply_chain_management', 'ServicesController@procurements')->name('procurement');
+Route::get('/Equipment_&_Machinery_Sourcing', 'ServicesController@sourcing')->name('sourcing');
 Route::get('/Information_Technology_Services', 'ServicesController@technology')->name('technology');
 
 //these are the routes for the blog

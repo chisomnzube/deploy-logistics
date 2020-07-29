@@ -14,6 +14,26 @@
   <link rel="stylesheet" href="assets/css/libraries.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <script src="https://kit.fontawesome.com/dfbe4c7cae.js" crossorigin="anonymous"></script>
+  <style >
+    .div {
+      /*width: 200px;
+      height: 200px;*/
+      display: block;
+      position: relative;
+    }
+
+    .div::after {
+      content: "";
+      background: url({{asset('img/back-equipment.jpg')}});
+      opacity: 0.1;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+    }
+  </style>
 </head>
 @endsection
 @section('main-content')
@@ -21,7 +41,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="Equipment & Machinery Sourcing  - {{config('app.name')}}"></div>
+      <div class="bg-img"><img src="{{ asset('img/equipment.jpg') }}" alt="Equipment & Machinery Sourcing  - {{config('app.name')}}"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -40,7 +60,7 @@
     <!-- ======================
       case studies Single
     ========================= -->
-    <section id="caseStudiesSingle" class="case-studies-single">
+    <section id="caseStudiesSingle" class="case-studies-single div">
       <div class="container">
         <div class="row">
          {{--  <div class="col-sm-12 col-md-12 col-lg-4">
@@ -103,127 +123,41 @@
                       <li ><i class="fas fa-angle-double-right"></i>Assist in supply chain services and delivery of equipment and shipments  to client’s</li>
                     </ul>
                     </p>
-                    {{-- <h4 class="text__block-title">Oil & Gas Industry and Other Equipment Sourcing </h4>
+                    <h4 class="text__block-title">Equipment Sourcing </h4>
                     <div class="row">
                       <div class="col-md-12 col-lg-12 col-sm-12">
 
-                        <h5 class="text__block-title">Flow Stations</h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Vapor & Gas Recovery Systems</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Compression Packages</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Filters & Strainers</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Burners & Flares</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Pump Skids</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Separation Technology</li>
-                        </ul>
-
-                        <h5 class="text__block-title">Drilling Equipment & Accessories</h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Drill Pipe & Collars</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Bottom Hole Components </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Coil Tubing</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Sand Control Equipment</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Screens & Completion Packers</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Blowout Preventers</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Parts for Oil Wells & Work Over Rigs</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Swivel Joints</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Mud Pump Spares</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Drill Pipe Elevators</li> 
-                          <li ><i class="fas fa-angle-double-right"></i>Traveling Blocks & Hooks</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Rotary Tables</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Winches</li>
-                        </ul>
-
-                        <h5 class="text__block-title">Instrumentation & Control System</h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Valves: Ball, Butterfly, Gate, Globe, all types</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Transducers & Switches</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Sensors</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Regulators </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Actuators: Pneumatic, Hydraulic, Electric</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Control Valves</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Motors</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Electronic Components</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Couplings & Guards</li>
-                        </ul>   
-
-                        <h5 class="text__block-title">Storage & Pipeline</h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Tanks</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Launchers & Receivers</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Pigging Products</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Expansion Joints</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Flame Arrestors & Detonators</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Vacuum & Relief Valves</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Hot Tapping & Line Stopping Components</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Pipes, Fittings & Flanges</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Flame & Detonation Arrestors</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Storage Tanks </li>
-                        </ul>
-
-                        <h5 class="text__block-title"> Process Equipment</h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Vapor & Gas Recovery Systems</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Separators & Scrubbers</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Coolers & Heat Exchangers</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Pump & Compression Skids </li>
-                          <li ><i class="fas fa-angle-double-right"></i>FWKO (Free Water Knockout)</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Gas Conditioning Units</li>
-                          <li ><i class="fas fa-angle-double-right"></i>LACT Units</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Expansion Joints</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Filters & Strainers</li>
-                        </ul>
-
-                        <h5 class="text__block-title">Instrumentation & Controls</h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Valves: Ball, Butterfly, Gate, Globe, all types </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Transducers & Switches</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Sensors </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Regulators </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Actuators: Pneumatic, Hydraulic, Electric </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Control Valves </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Motors </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Electronic Components </li>
-                          <li ><i class="fas fa-angle-double-right"></i>Couplings & Guards</li>
-                        </ul>  
-                         
-                        <h5 class="text__block-title">Displacement Pumps</h5>
-                        <p>The positive displacement principle applies in these pumps:</p>
+                        <p>
+                          Below are the list of equipment we can source globally for supplies based on specification and requirements for specific Projects and service requirement.  We can source directly from the OEMs and manufacturers.
+                        </p>
                         <ul class="list-group" >
                           
-                          <li ><i class="fas fa-angle-double-right"></i>Rotary lobe pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Progressive cavity pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Rotary gear pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Piston pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Diaphragm pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Screw pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Gear pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Hydraulic pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Vane pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Regenerative (peripheral) pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Peristaltic pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Rope pump</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Flexible impeller</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Centrifugal Pumps</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Gravity Pumps</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Roto Dynamic Pumps</li>
-                          <li ><i class="fas fa-angle-double-right"></i>Vertical Turbines</li>
-                        </ul>
-
-                        <h5 class="text__block-title">These products can be sourced from the following locations: </h5>
-                        <ul class="list-group" >
-                          <li ><i class="fas fa-angle-double-right"></i>Europe</li>
-                          <li ><i class="fas fa-angle-double-right"></i>India</li>
-                          <li ><i class="fas fa-angle-double-right"></i>North America</li>
-                          <li ><i class="fas fa-angle-double-right"></i>MEA ( Middle East and Asia) </li>
-                        </ul>
-
-                    
+                          <li ><i class="fas fa-angle-double-right"></i>Pipes, Fittings, Flanges, Stainless Steel Inserts, etc</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Stud Bolts & Nuts</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Spiral Wound, Ring Type, Flange Insulation Kits, Specialist Gaskets</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Barred Tees</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Clamp Connectors, Strainers, Spring Support, Couplings, Condensate Traps etc.</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Line Pipes/OCTG</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Misalignment Ball Joints, Swivel Ring Flanges</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Ball, Gate, Globe, Check, Butterfly, Choke, Shutdown, MOV, Control, PSV, DBB-Valves</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Vent Scrubbers, Sump Pump Skids, Instrument Power Gas Skids, Chemical Injection Skids, Metering Skids, Closed Drain Skids etc,</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Separators, Pig Launchers and Receivers</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Shell & Tube,  Air Cooled, Double Pipe, Air Coolers, Cold Boxes, Gas Dehydration, Glycol Regeneration Packages, Tower Internals, Hydrogen Generators, Nitrogen Generators, Electrostatics Treaters, Waste Incinerators</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Water Treatment, Potable Water Packages, Waste Heat Recovery Units (WHRU), Water Purifier, Water Maker, Marine Sanitization Device, Trash Compactors</li>
+                          <li ><i class="fas fa-angle-double-right"></i>LV Cables</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Electrical Power Generation Machine, Electrical Motors, Solar Power Generators, Wind Generators, Batteries, UPS and Chargers </li>
+                          <li ><i class="fas fa-angle-double-right"></i>Cable Glands, Cable Tray, Junction Boxes, Batteries, Terminations, Switchgear, Control Panels, Distribution Boards, Transformers, Relays; Electrical Lighting – Outdoor, Indoor, Hazardous Area, Emergency </li>
+                          <li ><i class="fas fa-angle-double-right"></i>Instrument Cables, Tubing, Fittings, Cable Glands, Cable Tray, Terminations</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Hose, Extinguishers, Monitors, Nozzles, Suppression, Flame Arrestor, CO2 Snuffing Skids, Vent Tip, GRE Pipe</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Reinforcing bars, scaffolding materials, forming materials, Concrete Mattress & Slippers</li>
+                          <li ><i class="fas fa-angle-double-right"></i>Plate, Sections, Beams, Angles, Pipes, Bar,  Grating – Steel, Fibre Glass</li>
+                          <li ><i class="fas fa-angle-double-right"></i>PPE-Ear, Head, Foot & Face protection( Hard hats, coveralls, safety shoes, goggles, ear plugs)</li>
+                        </ul>               
 
                     
                   </div>
                     
-                </div> --}}
+                </div> 
 
                   </div><!-- /.text-block -->
                   
