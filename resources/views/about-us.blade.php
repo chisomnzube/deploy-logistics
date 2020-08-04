@@ -57,11 +57,9 @@
                   Time!</h2>
               </div><!-- /.col-lg-12 -->
               <div class="col-sm-12 col-md-7 col-lg-7">
-                <p class="heading__desc mb-30">PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, OEM/Manufacturers Representation, Local customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners in different countries. </p>
+                <p class="heading__desc mb-30">PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, Shipping, Forwarding services OEM/Sales Representation and related service in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.</p>
 
-                <p>We pride ourselves on providing Freight forwarding,  transport and shipping services locally and Globally ( through our affiliates and partners) . 
-                We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers.
-                We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
+                <p>Our Freight forwarding, transport and shipping services locally and Globally ( through our affiliates and partners) . We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers. We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
                 </p>
                 <img src="{{ asset('images/signature.JPG') }}" alt="signature" class="signature mb-30">
               </div><!-- /.col-lg-7 -->

@@ -33,15 +33,15 @@
       <div class="owl-carousel thumbs-carousel carousel-arrows" data-slider-id="slider1" data-dots="false"
         data-autoplay="true" data-nav="true" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="{{ asset('img/banner1.jpg') }}" alt="{{config('app.name')}}"></div>
+          <div class="bg-img"><img src="{{ asset('img/rep-freight.jpg') }}" alt="{{config('app.name')}}"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 @include('inc.messages')
                 <div class="slide__content">
-                  <h2 class="slide__title">Safe & Reliable Cargo Solutions!</h2>
-                  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
-                    delivery.</p>
+                  <h2 class="slide__title">Local & International Freight Forwarding</h2>
+                 {{--  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
+                    delivery.</p> --}}
                   <a href="{{ route('forwarding') }}" class="btn btn__white mr-40">Read more</a>
                   <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
@@ -55,13 +55,13 @@
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="{{ asset('img/banner2.jpg') }}" alt="{{config('app.name')}}"></div>
+          <div class="bg-img"><img src="{{ asset('img/rep-procurement.jpg') }}" alt="{{config('app.name')}}"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Fast, Certified & Felxible Solutions.</h2>
-                  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated delivery.</p>
+                  <h2 class="slide__title">Local & International Procurement</h2>
+                  {{-- <p class="slide__desc">Providing flexibile, improved service levels, and accelerated delivery.</p> --}}
                   <a href="{{ route('procurement') }}" class="btn btn__white mr-40">Read more</a>
                   <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
@@ -75,14 +75,14 @@
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="{{ asset('img/banner3.jpg') }}" alt="{{config('app.name')}}"></div>
+          <div class="bg-img"><img src="{{ asset('img/equipment.jpg') }}" alt="{{config('app.name')}}"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Safe & Reliable Cargo Solutions!</h2>
-                  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
-                    delivery.</p>
+                  <h2 class="slide__title">Equipment & Machinery Sourcing</h2>
+                  {{-- <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
+                    delivery.</p> --}}
                   <a href="{{ route('oem.agency') }}" class="btn btn__white mr-40">Read more</a>
                   <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
@@ -96,13 +96,13 @@
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="{{ asset('img/banner4.jpg') }}" alt="{{config('app.name')}}"></div>
+          <div class="bg-img"><img src="{{ asset('img/rep-it.jpg') }}" alt="{{config('app.name')}}"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Fast, Certified & Felxible Solutions.</h2>
-                  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated delivery.</p>
+                  <h2 class="slide__title">Information Technology  Services</h2>
+                  {{-- <p class="slide__desc">Providing flexibile, improved service levels, and accelerated delivery.</p> --}}
                   <a href="{{ route('technology') }}" class="btn btn__white mr-40">Read more</a>
                   <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
@@ -151,8 +151,7 @@
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="row heading heading-2">
               <div class="col-sm-12 col-md-12 col-sm-12">
-                <h2 class="heading__title">Safe, Reliable And Express Logistic & Transport Solutions
-                  That Saves Your Time!</h2>
+                <h2 class="heading__title">We work with you to provide services to meet your expections.</h2>
               </div><!-- /.col-lg-12 -->
               <div class="col-sm-12 col-md-5 col-lg-5">
                 <div class="carousel owl-carousel carousel-dots" data-slide="1" data-slide-md="1" data-slide-sm="1"
@@ -179,10 +178,8 @@
                 </div><!-- /.carousel -->
               </div><!-- /.col-lg-5 -->
               <div class="col-sm-12 col-md-7 col-lg-7">
-                <p class="heading__desc mb-30">PZI  is a Company registered in Lagos Nigeria with Branch in USA and  UK. We provide Procurement services, customs Clearance, Logistics and Freight Forwarding services, Import and export operations in Nigeria, and Globally via our reliable Affiliates & Partners  in different countries. </p>
-                <p>We pride ourselves on providing Freight forwarding,  transport and shipping services locally and Globally ( through our affiliates and partners) . 
-                We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers.
-                We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
+                <p class="heading__desc mb-30">PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, Shipping, Forwarding services OEM/Sales Representation and related service in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.</p>
+                <p>Our Freight forwarding, transport and shipping services locally and Globally ( through our affiliates and partners) . We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers. We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
                 </p>
                 
                 <img src="{{ asset('images/signature.JPG') }}" alt="singnture" class="signature mb-30">
@@ -733,25 +730,25 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p ><b style="font-weight: bolder;">Owner: {{$project->owner}}</b> <br>
-                        <b>Client: {{$project->client}}</b> <br>
-                        <b>Details: {{strip_tags($project->details)}}</b> <br>
-                        <b>Scope:
+                      <p ><b style="font-weight: bolder;">Owner:</b> {{$project->owner}} <br>
+                        <b>Client:</b> {{$project->client}} <br>
+                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Scope:</b>
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach </b> <br>
-                        <b>Detailed Scope:    
+                            @endforeach  <br>
+                        <b>Detailed Scope:</b>    
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
                                 ?>
                                 @foreach($array as $items)
                                   {{$items.','}}
-                                @endforeach </b>
+                                @endforeach
                        </p>
                       
                     </div><!-- /.project-content -->
@@ -784,18 +781,18 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner: {{$project->owner}} </b><br>
-                        <b>Client: {{$project->client}} </b><br>
-                        <b>Details: {{strip_tags($project->details)}} </b><br>
-                        <b>Scope: 
+                      <p><b>Owner:</b> {{$project->owner}} <br>
+                        <b>Client: </b>{{$project->client}}<br>
+                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach </b><br>
-                        <b>Detailed Scope:    
+                            @endforeach<br>
+                        <b>Detailed Scope: </b>   
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -803,7 +800,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach 
-                                </b>
+                               
                        </p>
                     </div><!-- /.project-content -->
                   </div><!-- /.project-item -->
@@ -836,18 +833,18 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner: {{$project->owner}} </b><br>
-                        <b>Client: {{$project->client}} </b><br>
-                        <b>Details: {{strip_tags($project->details)}} </b><br>
-                        <b>Scope:
+                      <p><b>Owner:</b> {{$project->owner}} <br>
+                        <b>Client:</b> {{$project->client}}<br>
+                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}}<br>
+                        <b>Scope:</b>
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach </b> <br>
-                        <b>Detailed Scope:    
+                            @endforeach <br>
+                        <b>Detailed Scope:   </b> 
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -855,7 +852,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
-                                </b>
+                               
                        </p>
                     </div><!-- /.project-content -->
                   </div><!-- /.project-item -->
@@ -884,18 +881,18 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner: {{$project->owner}} </b><br>
-                        <b>Client: {{$project->client}} </b><br>
-                        <b>Details: {{strip_tags($project->details)}} </b><br>
-                        <b>Scope: 
+                        <p><b>Owner: </b>{{$project->owner}} <br>
+                        <b>Client:</b> {{$project->client}}<br>
+                        <b>Details: </b>{{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}}<br>
+                        <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach </b><br>
-                        <b>Detailed Scope:    
+                            @endforeach <br>
+                        <b>Detailed Scope:  </b>  
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -903,7 +900,6 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
-                                </b>
                        </p>
                       </div><!-- /.project-content -->
                     </div><!-- /.project-item -->
@@ -935,18 +931,18 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner: {{$project->owner}} </b><br>
-                        <b>Client: {{$project->client}} </b><br>
-                        <b>Details: {{strip_tags($project->details)}} </b><br>
-                        <b>Scope: 
+                        <p><b>Owner:</b> {{$project->owner}} <br>
+                        <b>Client:</b> {{$project->client}} <br>
+                        <b>Details: </b>{{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach </b><br>
-                        <b>Detailed Scope:    
+                            @endforeach <br>
+                        <b>Detailed Scope: </b>   
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -954,7 +950,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
-                                </b>
+                                
                        </p>
                       </div><!-- /.project-content -->
                     </div><!-- /.project-item -->
@@ -984,18 +980,18 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner: {{$project->owner}} </b><br>
-                        <b>Client: {{$project->client}} </b><br>
-                        <b>Details: {{strip_tags($project->details)}} </b><br>
-                        <b>Scope: 
+                        <p><b>Owner: </b>{{$project->owner}} <br>
+                        <b>Client:</b> {{$project->client}} <br>
+                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
                                 
                             ?>
                             @foreach($arr as $item)
                               {{$item.','}}
-                            @endforeach </b><br>
-                        <b>Detailed Scope:    
+                            @endforeach <br>
+                        <b>Detailed Scope:  </b>  
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
@@ -1003,7 +999,7 @@
                                 @foreach($array as $items)
                                   {{$items.','}}
                                 @endforeach
-                                </b>
+                                
                        </p>
                       </div><!-- /.project-content -->
                     </div><!-- /.project-item -->
