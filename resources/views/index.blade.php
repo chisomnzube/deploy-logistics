@@ -857,7 +857,7 @@
                             @foreach($arr as $item)
                               {{$item.','}}
                             @endforeach <br>
-                        <b>Detailed Scope:   </b> 
+                        <b>Detailed Scope:  </b> 
                                 <?php 
                                     $array = json_decode($project->scope);
                                     
