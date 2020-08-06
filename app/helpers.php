@@ -24,7 +24,7 @@ function checkCommentRef($id)
 
 function getProjects($name)
 	{
-		$projects = FeaturedProject::where('scope', 'like', '%'. $name. '%')->get()->take(6);
+		$projects = FeaturedProject::where('scope', 'like', '%'. $name. '%')->get();
 
 		return $projects;
 	}

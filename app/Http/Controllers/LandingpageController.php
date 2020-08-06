@@ -22,7 +22,7 @@ class LandingpageController extends Controller
     public function index()
     {
         $posts = Post::where('status', 'PUBLISHED')->orderBy('id', 'desc')->get()->take(3);
-        $projects = FeaturedProject::all()->sortByDesc('id')->take(6);
+        $projects = FeaturedProject::all()->sortByDesc('id');
 
         return view('index')->with([
                     'posts' => $posts,

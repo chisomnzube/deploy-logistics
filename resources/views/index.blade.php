@@ -736,7 +736,7 @@
                   @if($projects->count() > 0)
                   <!-- project item #1 -->
                   @foreach($projects as $project)
-                  <div class="project-item">
+                  <div class="project-item" >
                     <div class="project__img">
                       <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                       
@@ -745,7 +745,7 @@
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                       <p ><b style="font-weight: bolder;">Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope:</b>
                             <?php 
                                 $arr = json_decode($project->scope);
@@ -796,7 +796,7 @@
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                       <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client: </b>{{$project->client}}<br>
-                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
@@ -848,7 +848,7 @@
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                       <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}}<br>
-                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}}<br>
+                        <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }}<br>
                         <b>Scope:</b>
                             <?php 
                                 $arr = json_decode($project->scope);
@@ -896,7 +896,7 @@
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                         <p><b>Owner: </b>{{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}}<br>
-                        <b>Details: </b>{{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}}<br>
+                        <b>Details: </b>{{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }}<br>
                         <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
@@ -946,7 +946,7 @@
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                         <p><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
-                        <b>Details: </b>{{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Details: </b>{{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
@@ -995,7 +995,7 @@
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
                         <p><b>Owner: </b>{{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
-                        <b>Details:</b> {{strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details))}} <br>
+                        <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope: </b>
                             <?php 
                                 $arr = json_decode($project->scope);
