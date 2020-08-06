@@ -62,9 +62,9 @@ class ServicesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function productSales()
     {
-        //
+        return view('product-sales');
     }
 
     /**

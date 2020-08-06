@@ -33,6 +33,23 @@
       <div class="owl-carousel thumbs-carousel carousel-arrows" data-slider-id="slider1" data-dots="false"
         data-autoplay="true" data-nav="true" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
+          <div class="bg-img"><img src="{{ asset('img/landing-page.jpg') }}" alt="{{config('app.name')}}"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-8">
+                @include('inc.messages')
+                <div class="slide__content">
+                  <h2 class="slide__title">We beat the Spanish Flu, By GOD we will beat COVID-19</h2>
+                 {{--  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
+                    delivery.</p> --}}
+                  {{-- <a href="" class="btn btn__white mr-40">Read more</a> --}}
+                  
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-lg-8 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+        <div class="slide-item align-v-h bg-overlay">
           <div class="bg-img"><img src="{{ asset('img/rep-freight.jpg') }}" alt="{{config('app.name')}}"></div>
           <div class="container">
             <div class="row">
@@ -43,12 +60,7 @@
                  {{--  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
                     delivery.</p> --}}
                   <a href="{{ route('forwarding') }}" class="btn btn__white mr-40">Read more</a>
-                  <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                    <div class="video__player">
-                      <span class="video__player-animation"></span>
-                      <i class="fa fa-play"></i>
-                    </div>Our Video!
-                  </a>
+                  
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -63,12 +75,7 @@
                   <h2 class="slide__title">Local & International Procurement</h2>
                   {{-- <p class="slide__desc">Providing flexibile, improved service levels, and accelerated delivery.</p> --}}
                   <a href="{{ route('procurement') }}" class="btn btn__white mr-40">Read more</a>
-                  <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                    <div class="video__player">
-                      <span class="video__player-animation"></span>
-                      <i class="fa fa-play"></i>
-                    </div>Our Video!
-                  </a>
+                  
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -84,12 +91,7 @@
                   {{-- <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
                     delivery.</p> --}}
                   <a href="{{ route('oem.agency') }}" class="btn btn__white mr-40">Read more</a>
-                  <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                    <div class="video__player">
-                      <span class="video__player-animation"></span>
-                      <i class="fa fa-play"></i>
-                    </div>Our Video!
-                  </a>
+                  
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -104,12 +106,7 @@
                   <h2 class="slide__title">Information Technology  Services</h2>
                   {{-- <p class="slide__desc">Providing flexibile, improved service levels, and accelerated delivery.</p> --}}
                   <a href="{{ route('technology') }}" class="btn btn__white mr-40">Read more</a>
-                  <a class="btn btn__video popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                    <div class="video__player">
-                      <span class="video__player-animation"></span>
-                      <i class="fa fa-play"></i>
-                    </div>Our Video!
-                  </a>
+                  
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -120,6 +117,10 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12  d-none d-lg-block">
             <div class="owl-thumbs thumbs-dots" data-slider-id="slider1">
+              <button class="owl-thumb-item">
+                {{-- <i class="fa fa-shipping-fast"></i> --}}
+                <span>We beat the Spanish Flu, <br>By GOD we will beat COVID-19 </span>
+              </button>
               <button class="owl-thumb-item">
                 {{-- <i class="fa fa-shipping-fast"></i> --}}
                 <span>Local & International <br> Freight Forwarding </span>
@@ -148,12 +149,12 @@
     <section id="about4" class="about about-2 about-4 pb-40">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-7">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row heading heading-2">
               <div class="col-sm-12 col-md-12 col-sm-12">
                 <h2 class="heading__title">We work with you to provide services to meet your expections.</h2>
               </div><!-- /.col-lg-12 -->
-              <div class="col-sm-12 col-md-5 col-lg-5">
+              <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="carousel owl-carousel carousel-dots" data-slide="1" data-slide-md="1" data-slide-sm="1"
                   data-autoplay="true" data-nav="false" data-dots="true" data-space="0" data-loop="true"
                   data-speed="700">
@@ -177,21 +178,33 @@
                   </div><!-- /.fancybox-item -->
                 </div><!-- /.carousel -->
               </div><!-- /.col-lg-5 -->
-              <div class="col-sm-12 col-md-7 col-lg-7">
-                <p class="heading__desc mb-30">PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, Shipping, Forwarding services OEM/Sales Representation and related service in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.</p>
-                <p>Our Freight forwarding, transport and shipping services locally and Globally ( through our affiliates and partners) . We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers. We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
-                </p>
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="heading__desc mb-30">PZI is a Company registered in Lagos Nigeria with Branch in USA and UK. We provide Procurement services, Shipping, Forwarding services OEM/Sales Representation and related service in Nigeria, and Globally via our reliable Affiliates & Partners in different countries.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about__img mb-60">
+                          <img src="{{ asset('images/about_us.jpg') }}" alt="about img" class="img-fluid">
+                          <span>More About Us!</span>
+                        </div><!-- /.about-img -->
+                    </div>
+                    <div class="col-md-12">
+                        <p>Our Freight forwarding, transport and shipping services locally and Globally ( through our affiliates and partners) . We also utilize our Vast network to source and secure Project equipment and items from vendors globally through confirmed OEM representation and Global Suppliers. We are dedicated to provide services to our clients in line with Industry and international Best practice best combined with decades of experience.
+                      </p>
+                    </div>
+                    
+                </div>
+                
+                
                 
                 <img src="{{ asset('images/signature.JPG') }}" alt="singnture" class="signature mb-30">
               </div><!-- /.col-lg-7 -->
             </div><!-- /.row -->
           </div><!-- /.col-lg-7 -->
-          <div class="col-sm-12 col-md-9 col-lg-5">
-            <div class="about__img mb-60">
-              <img src="{{ asset('images/about_us.jpg') }}" alt="about img" class="img-fluid">
-              <span>More About Us!</span>
-            </div><!-- /.about-img -->
-          </div><!-- /.col-lg-5 -->
+          {{-- <div class="col-sm-12 col-md-9 col-lg-5">
+            
+          </div><!-- /.col-lg-5 --> --}}
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.About 4 -->

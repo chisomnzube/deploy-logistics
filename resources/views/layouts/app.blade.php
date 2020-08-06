@@ -79,7 +79,7 @@
                           <li class="nav__item"><a class="nav__item-link" href="{{ route('sourcing') }}">Equipment & Machinery Sourcing</a>
                           </li> <!-- /.nav-item -->                          
                           <li class="nav__item"><a class="nav__item-link" href="{{ route('technology') }}">Information technology & Consultancy </a></li>
-                          <li class="nav__item"><a class="nav__item-link" href="">Product Sales & Marketing  Development</a></li>
+                          <li class="nav__item"><a class="nav__item-link" href="{{ route('product.sales') }}">Product Sales & Marketing  Development</a></li>
                           <!-- /.nav-item -->
                         </ul>
                       </div><!-- /.col-sm-6 -->
@@ -244,7 +244,7 @@
                     <li ><a  href="{{ route('oem.agency') }}">OEM/Equipment and Sales Representation</li>
                     <li ><a  href="{{ route('sourcing') }}">Equipment & Machinery Sourcing</li>
                     <li ><a  href="{{ route('technology') }}">Information technology & Consultancy </a></li>
-                    <li ><a  href="">Product Sales & Marketing  Development</a></li>
+                    <li ><a  href="{{ route('product.sales') }}">Product Sales & Marketing  Development</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget-content -->

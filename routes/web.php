@@ -38,6 +38,7 @@ Route::get('/Local_&_International_Freight_Forwarding', 'ServicesController@forw
 Route::get('/Procurement_and_supply_chain_management', 'ServicesController@procurements')->name('procurement');
 Route::get('/Equipment_&_Machinery_Sourcing', 'ServicesController@sourcing')->name('sourcing');
 Route::get('/Information_Technology_Services', 'ServicesController@technology')->name('technology');
+Route::get('/Product_sales_and_marketing_development', 'ServicesController@productSales')->name('product.sales');
 
 //these are the routes for the blog
 Route::get('/{slug}/single', 'BlogsController@show')->name('blogs.show');
