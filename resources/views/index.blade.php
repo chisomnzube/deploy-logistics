@@ -39,7 +39,7 @@
               <div class="col-sm-12 col-md-12 col-lg-8">
                 @include('inc.messages')
                 <div class="slide__content">
-                  <h2 class="slide__title">We beat the Spanish Flu, By GOD we will beat COVID-19</h2>
+                  <h2 class="slide__title" style="font-size: 40px;">We beat the Spanish Flu, By GOD we will beat COVID-19</h2>
                  {{--  <p class="slide__desc">Providing flexibile, improved service levels, and accelerated
                     delivery.</p> --}}
                   {{-- <a href="" class="btn btn__white mr-40">Read more</a> --}}
@@ -119,7 +119,7 @@
             <div class="owl-thumbs thumbs-dots" data-slider-id="slider1">
               <button class="owl-thumb-item">
                 {{-- <i class="fa fa-shipping-fast"></i> --}}
-                <span>We beat the Spanish Flu, <br>By GOD we will beat COVID-19 </span>
+                <span></span>
               </button>
               <button class="owl-thumb-item">
                 {{-- <i class="fa fa-shipping-fast"></i> --}}
