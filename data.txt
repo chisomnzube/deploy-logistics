@@ -70,3 +70,5 @@ sudo chmod -R 775 /var/www/html/storage/app/public/posts
 It works for me Make sure change your user accordingly in this case it is deploybot
 
 https://stackoverflow.com/questions/36733306/unable-to-write-in-the-directory-digital-ocean
+
+git stash push --include-untracked
