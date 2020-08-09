@@ -13,8 +13,8 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="{{ route('landingpage') }}">
-            <img src="{{ asset('images/pzi.png') }}" class="logo-light" alt="{{config('app.name')}} logo">
-            <img src="{{ asset('images/pzi.png') }}" class="logo-dark" alt="{{config('app.name')}} logo">
+            <img src="{{ asset('images/pzi-remove-bg.png') }}" class="logo-light" alt="{{config('app.name')}} logo">
+            <img src="{{ asset('images/pzi-remove-bg.png') }}" class="logo-dark" alt="{{config('app.name')}} logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -148,10 +148,10 @@
                   <div id="collapse1" class="collapse  show" data-parent="#accordion">
                     <div class="accordion__item-body">
                       <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+2348173040154">+2348173040154</a></li>
+                        <li><a href="tel:+2348173040154">Phone: +2348173040154</a></li>
                         <li><a href="mailto:info@precision-zodiak.com">Email: info@precision-zodiak.com</a></li>
                         <li>Address: Lagos <br>
-                            suite 6,<br>
+                            Suite 6,<br>
                             41 Osolo Way<br> 
                             Ajao Estate-lagos<br>
                             Nigeria.
@@ -169,7 +169,7 @@
                   <div id="collapse2" class="collapse" data-parent="#accordion">
                     <div class="accordion__item-body">
                       <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+2348173040154">+2348173040154</a></li>
+                        <li><a href="tel:+2348173040154">Phone: +2348173040154</a></li>
                         <li><a href="mailto:info@precision-zodiak.com">Email: info@precision-zodiak.com</a></li>
                         <li>Address: Port-Harcourt Office <br>
                             No 64 Evo Road<br>
@@ -292,24 +292,24 @@
               <div class="footer__copyright">
                 <nav>
                   <ul class="list-unstyled footer__copyright-links d-flex flex-wrap">
-                    <li><a href="#">Terms & Conditions </a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="{{ route('tandc') }}">Terms & Conditions </a></li>
+                    <li><a href="{{ route('policy') }}">Privacy Policy</a></li>
                     <li><a href="#">Sitemap</a></li>
                     <li><a href="#">Employee login</a></li>
                   </ul>
                 </nav>
-                <span>&copy; {{date('Y')}} {{config('app.name')}} by</span>
-                <a href="https://www.webfluxy.com">Webfluxy</a>
+                <span style="font-size: 14px;">&copy; {{date('Y')}} {{config('app.name')}} by</span>
+                <a style="font-size: 14px;" href="">PZI</a>
               </div><!-- /.Footer-copyright -->
             </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center">
+            {{-- <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center">
               <div class="social__icons justify-content-end w-100">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
               </div><!-- /.social-icons -->
-            </div><!-- /.col-lg-6 -->
+            </div><!-- /.col-lg-6 --> --}}
           </div><!-- /.row -->
         </div><!-- /.Footer-bottom -->
       </div><!-- /.container -->

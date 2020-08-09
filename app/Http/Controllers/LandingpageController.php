@@ -40,6 +40,16 @@ class LandingpageController extends Controller
         return view('about-us');
     }
 
+    public function policy()
+    {
+        return view('policy');
+    }
+
+    public function tandc()
+    {
+        return view('tandc');
+    }
+
     /**
      * Display a listing of the resource.
      *

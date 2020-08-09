@@ -15,6 +15,8 @@ Route::get('/', 'LandingpageController@index')->name('landingpage');
 
 Route::get('/about', 'LandingpageController@about')->name('about.us');
 Route::get('/why_choose_us', 'LandingpageController@whyUs')->name('why.us');
+Route::get('/policy', 'LandingpageController@policy')->name('policy');
+Route::get('/terms-and-conditions', 'LandingpageController@tandc')->name('tandc');
 
 Route::get('/Project_cargo', 'LandingpageController@cargo')->name('project.cargo');
 Route::get('/OEM-Equipment_and_sales_representation', 'LandingpageController@agency')->name('oem.agency');
