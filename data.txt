@@ -6,7 +6,7 @@ $ebele2019
 
 db name: logistics
 
-
+ssh root@178.62.90.171 and password is passtheLion
 
 mysql -u root -p
 

@@ -146,10 +146,10 @@
                     <a class="accordion__item-title" href="#">Lagos Office</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse1" class="collapse  show" data-parent="#accordion">
-                    <div class="accordion__item-body">
-                      <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+2348173040154">Phone: +2348173040154</a></li>
-                        <li><a href="mailto:info@precision-zodiak.com">Email: info@precision-zodiak.com</a></li>
+                    <div class="accordion__item-body" >
+                      <ul class="contact__list list-unstyled" >
+                        <li><a href="tel:+2348173040154" style="font-size: 15px;">Phone: +2348173040154</a></li>
+                        <li><a href="mailto:info@precision-zodiak.com" style="font-size: 15px;">Email: info@precision-zodiak.com</a></li>
                         <li>Address: Lagos <br>
                             Suite 6,<br>
                             41 Osolo Way<br> 
@@ -169,8 +169,8 @@
                   <div id="collapse2" class="collapse" data-parent="#accordion">
                     <div class="accordion__item-body">
                       <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+2348173040154">Phone: +2348173040154</a></li>
-                        <li><a href="mailto:info@precision-zodiak.com">Email: info@precision-zodiak.com</a></li>
+                        <li><a href="tel:+2348173040154" style="font-size: 15px;">Phone: +2348173040154</a></li>
+                        <li><a href="mailto:info@precision-zodiak.com" style="font-size: 15px;">Email: info@precision-zodiak.com</a></li>
                         <li>Address: Port-Harcourt Office <br>
                             No 64 Evo Road<br>
                             GRA Phase II,<br>
@@ -189,9 +189,9 @@
                   <div id="collapse3" class="collapse" data-parent="#accordion">
                     <div class="accordion__item-body">
                       <ul class="contact__list list-unstyled">
-                        <li><a href="tel:+447515371301">UK Contact: +447515371301</a></li>
-                        <li><a href="tel:+00918323716873">USA Contact: +009 18323716873</a></li>
-                        <li><a href="mailto:info@precision-zodiak.com">Email: info@precision-zodiak.com</a></li>
+                        <li><a href="tel:+447515371301" style="font-size: 15px;">UK Contact: +447515371301</a></li>
+                        <li><a href="tel:+00918323716873" style="font-size: 15px;">USA Contact: +009 18323716873</a></li>
+                        <li><a href="mailto:info@precision-zodiak.com" style="font-size: 15px;">Email: info@precision-zodiak.com</a></li>
                         <li>Address: London Office <br>
                             524 York Road, Stevenage,<br>
                             Hertfordshire, SG1 4EP<br>
