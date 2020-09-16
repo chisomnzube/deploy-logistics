@@ -21,6 +21,9 @@
     .project__img img{
       height: 250px;
     }
+    .project-item .project__content{
+      font-size: 1px;
+    }
   </style>
 </head>
 @endsection
@@ -741,9 +744,9 @@
                       <img src="{{ postImage($project->image) }}" alt="{{$project->name}}}">
                       
                     </div><!-- /.project-img -->
-                    <div class="project__content" style="color: black;">
+                    <div class="project__content" style="color: black; ">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p ><b style="font-weight: bolder;">Owner:</b> {{$project->owner}} <br>
+                      <p  style=" font-size: 16px;"><b style="font-weight: bolder;">Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
                         <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope:</b>
@@ -794,7 +797,7 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner:</b> {{$project->owner}} <br>
+                      <p style=" font-size: 16px;"><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client: </b>{{$project->client}}<br>
                         <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope: </b>
@@ -846,7 +849,7 @@
                     </div><!-- /.project-img -->
                     <div class="project__content" style="color: black;">
                       <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                      <p><b>Owner:</b> {{$project->owner}} <br>
+                      <p style=" font-size: 16px;"><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}}<br>
                         <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }}<br>
                         <b>Scope:</b>
@@ -894,7 +897,7 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner: </b>{{$project->owner}} <br>
+                        <p style=" font-size: 16px;"><b>Owner: </b>{{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}}<br>
                         <b>Details: </b>{{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }}<br>
                         <b>Scope: </b>
@@ -944,7 +947,7 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner:</b> {{$project->owner}} <br>
+                        <p style=" font-size: 16px;"><b>Owner:</b> {{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
                         <b>Details: </b>{{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope: </b>
@@ -993,7 +996,7 @@
                       </div><!-- /.project-img -->
                       <div class="project__content" style="color: black;">
                         <h4 class="project__title"><a href="{{ route('project.show', [$project->name, $project->id]) }}">{{$project->name}}</a></h4>
-                        <p><b>Owner: </b>{{$project->owner}} <br>
+                        <p style=" font-size: 16px;"><b>Owner: </b>{{$project->owner}} <br>
                         <b>Client:</b> {{$project->client}} <br>
                         <b>Details:</b> {{str_limit(strip_tags(str_replace(array('&nbsp;', '&amp;'), array(' ', '&'), $project->details)),50) }} <br>
                         <b>Scope: </b>
