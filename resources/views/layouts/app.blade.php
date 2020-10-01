@@ -23,8 +23,7 @@
             <ul class="list-unstyled d-flex justify-content-end align-items-center">
               <li><i class="icon-phone"></i><span><a href="tel:+2348173040154">+2348173040154</a></span></li>
              
-              <li ><a href="#request_quote" class="btn btn__white" style="font-size: 16px;"><i class="icon-list"></i><span>Request A
-                    Quote</span></a></li>
+              <li ><a href="#request_quote" class="btn btn__white" ><i class="icon-list"></i><span style="font-size: 12px;">Request A Quote</span></a></li>
             </ul>
           </div><!-- /.header-top-right -->
           <div class="collapse navbar-collapse" id="mainNavigation">
@@ -268,7 +267,7 @@
                 </nav>
               </div><!-- /.footer-widget-content -->
             </div><!-- /.col-lg-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+            {{-- <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
               <h6 class="footer__widget-title">Quick Links</h6>
               <div class="footer__widget-content">
                 <nav>
@@ -280,8 +279,8 @@
                     <li><a href="#">Help & FAQ</a></li>
                   </ul>
                 </nav>
-              </div><!-- /.footer-widget-content -->
-            </div><!-- /.col-lg-2 -->
+              </div>
+            </div> --}}
           </div><!-- /.row -->
         </div><!-- /.container -->
       </div><!-- /.footer-top -->
@@ -290,14 +289,14 @@
           <div class="row">
             <div class="col-sm-12 col-md-9 col-lg-9">
               <div class="footer__copyright">
-                <nav>
+                {{-- <nav>
                   <ul class="list-unstyled footer__copyright-links d-flex flex-wrap">
                     <li><a href="{{ route('tandc') }}">Terms & Conditions </a></li>
                     <li><a href="{{ route('policy') }}">Privacy Policy</a></li>
                     <li><a href="#">Sitemap</a></li>
                     <li><a href="#">Employee login</a></li>
                   </ul>
-                </nav>
+                </nav> --}}
                 <span style="font-size: 14px;">&copy; {{date('Y')}} {{config('app.name')}} by</span>
                 <a style="font-size: 14px;" href="">PZI</a>
               </div><!-- /.Footer-copyright -->
