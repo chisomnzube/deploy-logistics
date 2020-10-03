@@ -34,7 +34,7 @@
     .div::after {
       content: "";
       background: url({{asset('img/membership-bg.jpg')}});
-      opacity: 0.1;
+      opacity: 0.7;
       top: 0;
       left: 0;
       bottom: 0;
@@ -1063,40 +1063,88 @@
         <h3>Membership,Affiliations and Service Providers</h3>
         <div class="row">
           <div class="col-md-2">
-            <img src="img/mem/ANLCA logo.png" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/FIATA Logo 300dpi.jpg" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/Cosco Logo.png" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/ANLCA logo.png" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/CRFFN LOGO.png" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/Cosco Logo.png" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/Customs Logo.png" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/CRFFN LOGO.png" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/customs-logo.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/Customs Logo.png" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/FIATA Logo 300dpi.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/customs-logo.jpg" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/Maersk Logo.png" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/Maersk Logo.png" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/NAGAFF LOGO.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/NAGAFF LOGO.jpg" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/NAHCO Logo.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/NAHCO Logo.jpg" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/NPA Logo.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/NPA Logo.jpg" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/Safmarine Logo.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/Safmarine Logo.jpg" width="200">
+              </div>
+            </div>
           </div>
           <div class="col-md-2">
-            <img src="img/mem/Sahcol Logo.jpg" width="100">
+            <div class="card" style="background-color: transparent; border:none;">
+              <div class="card-body" style="background-color: transparent;">
+                <img src="img/mem/Sahcol Logo.jpg" width="200">
+              </div>
+            </div>
           </div>
 
         </div>  
