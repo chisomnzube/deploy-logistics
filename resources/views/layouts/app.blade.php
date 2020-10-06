@@ -106,6 +106,11 @@
                 <a href="{{ route('blogs.index') }}" class="dropdown-toggle nav__item-link">News & Media</a>
                 
               </li><!-- /.nav-item -->
+
+              <li class="nav__item with-dropdown">
+                <a href="{{ route('resources.index') }}" class="dropdown-toggle nav__item-link">Resources</a>
+                
+              </li><!-- /.nav-item -->
              
               <li class="nav__item">
                 <a href="{{ route('contact.us') }}" class="nav__item-link">Contact Us</a>

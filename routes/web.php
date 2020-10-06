@@ -48,6 +48,11 @@ Route::get('/blogs', 'BlogsController@index')->name('blogs.index');
 Route::get('/search-post', 'BlogsController@search')->name('search.posts');
 Route::get('/file/download/{id}', 'BlogsController@download')->name('downloadFile');
 
+//route for resources
+Route::get('/{slug}/resource', 'ResourcesController@show')->name('resources.show');
+Route::get('/resources', 'ResourcesController@index')->name('resources.index');
+Route::get('/file/download/resource/{id}', 'ResourcesController@download')->name('downloadResourceFile');
+
 //route for featured project
 Route::get('/{name}/{id}/project', 'LandingpageController@projects')->name('project.show');
 

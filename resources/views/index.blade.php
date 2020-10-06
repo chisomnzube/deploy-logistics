@@ -1062,87 +1062,98 @@
       <div class="container" style="text-align: center;">
         <h3>Membership,Affiliations and Service Providers</h3>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/FIATA Logo 300dpi.jpg" width="200">
+                <img src="img/mem/FIATA Logo 300dpi.jpg" width="200" height="200">
+                <p style="color: white;">The International Federation of Freight Forwarders Association</p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/ANLCA logo.png" width="200">
+                <img src="img/mem/ANLCA logo.png" width="200" height="200">
+                <p style="color: white;">Association of Customs Licensed Agents</p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/Cosco Logo.png" width="200">
+                <img src="img/mem/Cosco Logo.png" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/CRFFN LOGO.png" width="200">
+                <img src="img/mem/CRFFN LOGO.png" width="200" height="200">
+                <p style="color: white;">Council for the Regulation of Freight Forwarding in Nigeria</p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/Customs Logo.png" width="200">
+                <img src="img/mem/Customs Logo.png" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          {{-- <div class="col-md-2">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
                 <img src="img/mem/customs-logo.jpg" width="200">
               </div>
             </div>
-          </div>
-          <div class="col-md-2">
+          </div> --}}
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/Maersk Logo.png" width="200">
+                <img src="img/mem/Maersk Logo.png" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/NAGAFF LOGO.jpg" width="200">
+                <img src="img/mem/NAGAFF LOGO.jpg" width="200" height="200">
+                <p style="color: white;">National Association of Government Approved Freight Forwarders</p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/NAHCO Logo.jpg" width="200">
+                <img src="img/mem/NAHCO Logo.jpg" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/NPA Logo.jpg" width="200">
+                <img src="img/mem/NPA Logo.jpg" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/Safmarine Logo.jpg" width="200">
+                <img src="img/mem/Safmarine Logo.jpg" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card" style="background-color: transparent; border:none;">
               <div class="card-body" style="background-color: transparent;">
-                <img src="img/mem/Sahcol Logo.jpg" width="200">
+                <img src="img/mem/Sahcol Logo.jpg" width="200" height="200">
+                <p style="color: white;"></p>
               </div>
             </div>
           </div>
