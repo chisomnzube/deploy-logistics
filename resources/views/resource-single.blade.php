@@ -28,10 +28,10 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">News & Media</li>
+                <li class="breadcrumb-item active" aria-current="page">Resources</li>
               </ol>
             </nav>
-            <h1 class="pagetitle__heading">News & Media</h1>
+            <h1 class="pagetitle__heading">Resources</h1>
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
