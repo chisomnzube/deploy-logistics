@@ -607,8 +607,8 @@
 
 
                           <div class="col-sm-12 col-md-12 col-lg-12">
-                            <div class="form-group">Attatch Documents:
-                              <input type="file" name="image" class="form-control" >
+                            <div class="form-group">Attatch Documents: {{-- <br> --}}
+                              <input type="file" name="image" class="form-control-file" >
                             </div>
                           </div><!-- /.col-lg-6 -->
                           <div class="col-sm-12 col-md-12 col-lg-12">
